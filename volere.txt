@@ -1,0 +1,44 @@
+Projekt - przychodnia :
+1. Cel projektu : 
+Koñcowym efektem projektu bêdzie stworzenie oprogramowania dla Przychodni medycznej "Amedical"
+które bêdzie zawiera³o nastêpuj¹ce punkty : 
+    1. rejestracja pacjentów
+      a. dane pacjenta : imiê, nazwisko, pesel, adres, data urodzenia, telefon kontaktowy
+      b. upowa¿nienie przez pacjenta osoby, któa mo¿e odebraæ wyniki i dowiedzieæ siê o stan pacjenta : 
+          imiê i nazwisko oraz telefon kontaktowy do tej osoby
+      c. wywiad z pacjentem : leki, przebyte choroby, operacje, pobyty w szpitalu
+    2. TERMINARZ 
+        umawianie pacjentów : 
+      - do danego (imiê naziwsko )lekarza konkretnej specjalizacji
+      - na dan¹ godzinê i odpowiedniego dnia.
+    3. Opis badania 
+      - automatyczne wyœwietlenie daty
+      - automatyczne wyœwietlenie lekarza (jego specjalizacji)
+      - miejsce na szczegó³owy opis badania przez lekarza 
+      - miejsce na wybór z bazy danych leków przepisnych
+      - skierowania 
+      - kod NFZ wizyty | pacjent prywatny 
+    4. Umówienie pacjenta na kolejn¹ wizytê : pole gdzie umawiamy pacjenta, te dane s¹ automatycznie 
+      przesy³ane do terminarza
+    5. Wydruk zaœwiadczeñ lekarskich 
+      - Pole do wypisania zaœwiadczenia lekarskiego (automatyczne wybieranie szablonu)
+      - Szablon zawiera imiê i nazwisko pacjenta ( automatycznie wpisywane przez program - dane z rejestracji )
+      - Lekarz wpisuje tylko powód zaœwiadczenia lekarskiego oraz czas trwania zwolnienia ( od do )
+    6. Wydruk listy pacjentów na dany dzieñ dla danego lekarza (automatycznie generowana z termionarza ) 
+2. Osoba zlecaj¹ca : w³aœciciel prof. Adam Ziarenko
+   Nabywca : Przychodnia medyczna "Amedical"
+   Stakeholders : Anna Zieliñska (dyrektor "Amedical") , dr Katarzyna Maci¹ (informacje medyczne) , 
+                  Robert Graf (grafik oprogramowania) 
+3. U¿ytkownicy :
+  - nazwa u¿ytkownika : lekarze, pielêgniarki, rejestratorki
+  - rola rejestratorki : umówienie pacjenta na wizytê, zarejestrowanie pacjenta, uzyskanie wywiadu wstêpnego,
+    wydruk listy pacjentów
+  - rola lekarza : opis badania, wydruk zaœwiadczeñ lekarskich
+  - rola pielêgniarki : wypisanie recepty na podstawie danych w przepisanych lekach, rejestracja pacjenta, opis
+    badania, umówienie pacjenta na kolejn¹ wizytê 
+  - wiedza : program musi byæ intuicyjny i ³atwy w obs³udze 
+
+
+   
+
+  
