@@ -3,28 +3,10 @@ Projekt - przychodnia :
 Koñcowym efektem projektu bêdzie stworzenie oprogramowania dla Przychodni medycznej "Amedical"
 które bêdzie zawiera³o nastêpuj¹ce punkty : 
     1. rejestracja pacjentów
-      a. dane pacjenta : imiê, nazwisko, pesel, adres, data urodzenia, telefon kontaktowy
-      b. upowa¿nienie przez pacjenta osoby, któa mo¿e odebraæ wyniki i dowiedzieæ siê o stan pacjenta : 
-          imiê i nazwisko oraz telefon kontaktowy do tej osoby
-      c. wywiad z pacjentem : leki, przebyte choroby, operacje, pobyty w szpitalu
     2. TERMINARZ 
-        umawianie pacjentów : 
-      - do danego (imiê naziwsko )lekarza konkretnej specjalizacji
-      - na dan¹ godzinê i odpowiedniego dnia.
     3. Opis badania 
-      - automatyczne wyœwietlenie daty
-      - automatyczne wyœwietlenie lekarza (jego specjalizacji)
-      - miejsce na szczegó³owy opis badania przez lekarza 
-      - miejsce na wybór z bazy danych leków przepisnych
-      - skierowania 
-      - kod NFZ wizyty | pacjent prywatny 
-    4. Umówienie pacjenta na kolejn¹ wizytê : pole gdzie umawiamy pacjenta, te dane s¹ automatycznie 
-      przesy³ane do terminarza
+    4. Umówienie pacjenta na kolejn¹ wizytê
     5. Wydruk zaœwiadczeñ lekarskich 
-      - Pole do wypisania zaœwiadczenia lekarskiego (automatyczne wybieranie szablonu)
-      - Szablon zawiera imiê i nazwisko pacjenta ( automatycznie wpisywane przez program - dane z rejestracji )
-      - Lekarz wpisuje tylko powód zaœwiadczenia lekarskiego oraz czas trwania zwolnienia ( od do )
-    6. Wydruk listy pacjentów na dany dzieñ dla danego lekarza (automatycznie generowana z termionarza ) 
 2. Osoba zlecaj¹ca : w³aœciciel prof. Adam Ziarenko
    Nabywca : Przychodnia medyczna "Amedical"
    Stakeholders : Anna Zieliñska (dyrektor "Amedical") , dr Katarzyna Maci¹ (informacje medyczne) , 
@@ -37,7 +19,90 @@ które bêdzie zawiera³o nastêpuj¹ce punkty :
   - rola pielêgniarki : wypisanie recepty na podstawie danych w przepisanych lekach, rejestracja pacjenta, opis
     badania, umówienie pacjenta na kolejn¹ wizytê 
   - wiedza : program musi byæ intuicyjny i ³atwy w obs³udze 
-
+4. Ograniczenia : 
+  - czas realizacji : 30.08.13
+  - bud¿et : 25 tysiêcy PLN
+5. Nazewnictwo i definicje : 
+      OPIS BADANIA : 
+        - kody NFZ - wyjaœnienie 
+6. Przypuszczenia : 
+  - chêæ rozszerzenia funkcjonowania programu o specjalizacje lekarskie
+7. Zasiêg dzia³ania : 
+  a.  Lista modu³ów :
+        - umawianie pacjenta (Terminarz z podzia³em na lekarzy)
+        - czêœæ rejestracji (dane pacjenta)
+        - czêœæ wywiadu ( przebyte choroby, pobyt w szpitalu, specjaliostyczne leczenie, grupa krwi )
+        - opis badania ( automatycznie wybierany przez lekarza przyk³adaowy opis, wybur "us³ugi" )
+        - wypisywanie zaœwiadczeñ lekarskich 
+        - wypisywanie recept 
+        - umawianie na nastêpn¹ wizytê 
+        - kody NFZ wprowadzane automatycznie po wyborze "us³ugi" 
+        - Uwagi
+      
+   b. Program wykorzystywany tylko przez przychodnie z wieloma specjalizacjami 
+8. Zasiêg projektu : 
+    Diagram use_case 
+    
+9. Wymagania funkcjonale i wymagania danych :
+    - wymagania funkcjonalne : 
+    1. rejestracja pacjentów
+      a. dane pacjenta : imiê, nazwisko, pesel, adres, data urodzenia, telefon kontaktowy
+      b. upowa¿nienie przez pacjenta osoby, któa mo¿e odebraæ wyniki i dowiedzieæ siê o stan pacjenta : 
+          imiê i nazwisko oraz telefon kontaktowy do tej osoby
+      c. wywiad z pacjentem : leki, przebyte choroby, operacje, pobyty w szpitalu
+    2. TERMINARZ 
+        umawianie pacjentów : 
+      - do danego (imiê naziwsko )lekarza konkretnej specjalizacji
+      - na dan¹ godzinê i odpowiedniego dnia.
+    3. Opis badania
+      - automatyczny wybór opisu po zatwierdzeniu specjalizacji lekarza
+      - automatyczne wyœwietlenie daty
+      - automatyczne wyœwietlenie lekarza (jego specjalizacji)
+      - miejsce na szczegó³owy opis badania przez lekarza 
+      - miejsce na wybór z bazy danych leków przepisnych
+      - skierowania 
+      - kod NFZ wizyty | pacjent prywatny 
+    4. Umówienie pacjenta na kolejn¹ wizytê : pole gdzie umawiamy pacjenta, te dane s¹ automatycznie 
+      przesy³ane do terminarza
+    5. Wydruk zaœwiadczeñ lekarskich 
+      - Pole do wypisania zaœwiadczenia lekarskiego (automatyczne wybieranie szablonu)
+      - Szablon zawiera imiê i nazwisko pacjenta ( automatycznie wpisywane przez program - dane z rejestracji )
+      - Lekarz wpisuje tylko powód zaœwiadczenia lekarskiego oraz czas trwania zwolnienia ( od do )
+    6. Wydruk listy pacjentów na dany dzieñ dla danego lekarza (automatycznie generowana z terminarza ) 
+ 
+    - wymagania danych : 
+    diagram zwiazków encji -> zw_encji
+    
+10. Wygl¹d programu :
+    - Menu g³ówne : logo przychodni na be¿owym tle w lewym górnym rogu , na œrodku ikony wyboru
+        TERMINARZ
+        REJESTRACJA i OPIS BADANIA
+        Pomoc 
+        Zamknij
+        Baza pacjentów
+        Baza lekarzy ( zdjêcie, specjalizacja, kontakt, godziny przyjmowania, miejsca przyjmowania )
+        Baza przychodni siostrzanych ( adres, telefon, lista lekarzy, wgl¹d do ich terminarza i 
+        mo¿liwoœæ zapisu po zatwierdzeniu has³a )
+    - TERMINARZ :
+    wybór lekarza (specjalizacji)
+    wybór terminu
+    obliczenie terminu kolejnej wizyty
+    podgl¹d terminarza bez wyboru lekarza i konkretnego terminu 
+    kalendarz wyœwietla siê dla jednego tygodnia (ka¿dy dzieñ to kolumna, wiersze to godziny, 
+    czêstotliwoœæ co 20 min)
+    
+    - REJESTRACJA :
+    T³o be¿owe z logo w górnym lewym rogu 
+    Po prawej stronie rozwijane menu ( bia³o/be¿owe buttons ) zawieraj¹ce :
+      - Dane pacjenta ( adres, telefon, pesel, e-mail, osoby upowa¿nione )
+      - Wywiad (przebyte choroby, pobyt w szpitalu, operacje, leki sta³e, uczulenie, grupa krwi)
+      - Opis badania ( pole wyboru "us³ugi" , automatycznie wybierany tekst po wyborze specjalizacji lekarza
+      otwieraj¹cy siê w oknie edycji , pole wyboru lekarza , lekarza pomocniczego, pielegniarki - lekarz 
+      ustawiany automatycznie po zapisie na wizytê )
+      - Zaœwiadczenie lekarskie ( pole edycji ju¿ w automatycznie wybranym tekstem )
+      - Recepty ( wybór leków z bazy danych )
+      - Nastêpna wizyta - przekierowanie do terminarza 
+      
 
    
 
