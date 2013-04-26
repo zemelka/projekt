@@ -44,19 +44,19 @@
      <string>x</string>
      <void method="set">
       <object idref="Point2D$Double1"/>
-      <double>512.0</double>
+      <double>547.0</double>
      </void>
     </void>
     <void class="java.awt.geom.Point2D$Double" method="getField">
      <string>y</string>
      <void method="set">
       <object idref="Point2D$Double1"/>
-      <double>57.0</double>
+      <double>133.0</double>
      </void>
     </void>
     <void method="setLocation">
-     <double>512.0</double>
-     <double>57.0</double>
+     <double>547.0</double>
+     <double>133.0</double>
     </void>
    </object>
   </void>
@@ -74,19 +74,19 @@
      <string>x</string>
      <void method="set">
       <object idref="Point2D$Double2"/>
-      <double>510.0</double>
+      <double>375.0</double>
      </void>
     </void>
     <void class="java.awt.geom.Point2D$Double" method="getField">
      <string>y</string>
      <void method="set">
       <object idref="Point2D$Double2"/>
-      <double>179.0</double>
+      <double>54.0</double>
      </void>
     </void>
     <void method="setLocation">
-     <double>510.0</double>
-     <double>179.0</double>
+     <double>375.0</double>
+     <double>54.0</double>
     </void>
    </object>
   </void>
@@ -103,19 +103,19 @@
      <string>x</string>
      <void method="set">
       <object idref="Point2D$Double3"/>
-      <double>153.0</double>
+      <double>146.0</double>
      </void>
     </void>
     <void class="java.awt.geom.Point2D$Double" method="getField">
      <string>y</string>
      <void method="set">
       <object idref="Point2D$Double3"/>
-      <double>385.0</double>
+      <double>720.0</double>
      </void>
     </void>
     <void method="setLocation">
-     <double>153.0</double>
-     <double>385.0</double>
+     <double>146.0</double>
+     <double>720.0</double>
     </void>
    </object>
   </void>
@@ -133,19 +133,19 @@
      <string>x</string>
      <void method="set">
       <object idref="Point2D$Double4"/>
-      <double>563.0</double>
+      <double>559.0</double>
      </void>
     </void>
     <void class="java.awt.geom.Point2D$Double" method="getField">
      <string>y</string>
      <void method="set">
       <object idref="Point2D$Double4"/>
-      <double>293.0</double>
+      <double>576.0</double>
      </void>
     </void>
     <void method="setLocation">
-     <double>563.0</double>
-     <double>293.0</double>
+     <double>559.0</double>
+     <double>576.0</double>
     </void>
    </object>
   </void>
@@ -162,19 +162,19 @@
      <string>x</string>
      <void method="set">
       <object idref="Point2D$Double5"/>
-      <double>490.0</double>
+      <double>454.0</double>
      </void>
     </void>
     <void class="java.awt.geom.Point2D$Double" method="getField">
      <string>y</string>
      <void method="set">
       <object idref="Point2D$Double5"/>
-      <double>413.0</double>
+      <double>502.0</double>
      </void>
     </void>
     <void method="setLocation">
-     <double>490.0</double>
-     <double>413.0</double>
+     <double>454.0</double>
+     <double>502.0</double>
     </void>
    </object>
   </void>
@@ -192,19 +192,19 @@
      <string>x</string>
      <void method="set">
       <object idref="Point2D$Double6"/>
-      <double>656.0</double>
+      <double>657.0</double>
      </void>
     </void>
     <void class="java.awt.geom.Point2D$Double" method="getField">
      <string>y</string>
      <void method="set">
       <object idref="Point2D$Double6"/>
-      <double>498.0</double>
+      <double>708.0</double>
      </void>
     </void>
     <void method="setLocation">
-     <double>656.0</double>
-     <double>498.0</double>
+     <double>657.0</double>
+     <double>708.0</double>
     </void>
    </object>
   </void>
@@ -221,19 +221,19 @@
      <string>x</string>
      <void method="set">
       <object idref="Point2D$Double7"/>
-      <double>484.0</double>
+      <double>514.0</double>
      </void>
     </void>
     <void class="java.awt.geom.Point2D$Double" method="getField">
      <string>y</string>
      <void method="set">
       <object idref="Point2D$Double7"/>
-      <double>552.0</double>
+      <double>770.0</double>
      </void>
     </void>
     <void method="setLocation">
-     <double>484.0</double>
-     <double>552.0</double>
+     <double>514.0</double>
+     <double>770.0</double>
     </void>
    </object>
   </void>
@@ -250,19 +250,19 @@
      <string>x</string>
      <void method="set">
       <object idref="Point2D$Double8"/>
-      <double>154.0</double>
+      <double>138.0</double>
      </void>
     </void>
     <void class="java.awt.geom.Point2D$Double" method="getField">
      <string>y</string>
      <void method="set">
       <object idref="Point2D$Double8"/>
-      <double>841.0</double>
+      <double>264.0</double>
      </void>
     </void>
     <void method="setLocation">
-     <double>154.0</double>
-     <double>841.0</double>
+     <double>138.0</double>
+     <double>264.0</double>
     </void>
    </object>
   </void>
@@ -270,7 +270,8 @@
    <object class="com.horstmann.violet.UseCaseNode" id="UseCaseNode6">
     <void property="name">
      <void property="text">
-      <string>wypisywanie recept</string>
+      <string>umawianie pacjenta na kolejną wizytę
+</string>
      </void>
     </void>
    </object>
@@ -279,19 +280,19 @@
      <string>x</string>
      <void method="set">
       <object idref="Point2D$Double9"/>
-      <double>314.0</double>
+      <double>486.0</double>
      </void>
     </void>
     <void class="java.awt.geom.Point2D$Double" method="getField">
      <string>y</string>
      <void method="set">
       <object idref="Point2D$Double9"/>
-      <double>710.0</double>
+      <double>350.0</double>
      </void>
     </void>
     <void method="setLocation">
-     <double>314.0</double>
-     <double>710.0</double>
+     <double>486.0</double>
+     <double>350.0</double>
     </void>
    </object>
   </void>
@@ -299,8 +300,7 @@
    <object class="com.horstmann.violet.UseCaseNode" id="UseCaseNode7">
     <void property="name">
      <void property="text">
-      <string>rejestracja pacjenta
-</string>
+      <string>wypisywanie recept</string>
      </void>
     </void>
    </object>
@@ -309,78 +309,19 @@
      <string>x</string>
      <void method="set">
       <object idref="Point2D$Double10"/>
-      <double>390.0</double>
+      <double>553.0</double>
      </void>
     </void>
     <void class="java.awt.geom.Point2D$Double" method="getField">
      <string>y</string>
      <void method="set">
       <object idref="Point2D$Double10"/>
-      <double>784.0</double>
+      <double>227.0</double>
      </void>
     </void>
     <void method="setLocation">
-     <double>390.0</double>
-     <double>784.0</double>
-    </void>
-   </object>
-  </void>
-  <void method="addNode">
-   <object class="com.horstmann.violet.UseCaseNode" id="UseCaseNode8">
-    <void property="name">
-     <void property="text">
-      <string>umawianie pacjenta na kolejną wizytę
-</string>
-     </void>
-    </void>
-   </object>
-   <object class="java.awt.geom.Point2D$Double" id="Point2D$Double11">
-    <void class="java.awt.geom.Point2D$Double" method="getField">
-     <string>x</string>
-     <void method="set">
-      <object idref="Point2D$Double11"/>
-      <double>400.0</double>
-     </void>
-    </void>
-    <void class="java.awt.geom.Point2D$Double" method="getField">
-     <string>y</string>
-     <void method="set">
-      <object idref="Point2D$Double11"/>
-      <double>858.0</double>
-     </void>
-    </void>
-    <void method="setLocation">
-     <double>400.0</double>
-     <double>858.0</double>
-    </void>
-   </object>
-  </void>
-  <void method="addNode">
-   <object class="com.horstmann.violet.UseCaseNode" id="UseCaseNode9">
-    <void property="name">
-     <void property="text">
-      <string>opis badania</string>
-     </void>
-    </void>
-   </object>
-   <object class="java.awt.geom.Point2D$Double" id="Point2D$Double12">
-    <void class="java.awt.geom.Point2D$Double" method="getField">
-     <string>x</string>
-     <void method="set">
-      <object idref="Point2D$Double12"/>
-      <double>289.0</double>
-     </void>
-    </void>
-    <void class="java.awt.geom.Point2D$Double" method="getField">
-     <string>y</string>
-     <void method="set">
-      <object idref="Point2D$Double12"/>
-      <double>996.0</double>
-     </void>
-    </void>
-    <void method="setLocation">
-     <double>289.0</double>
-     <double>996.0</double>
+     <double>553.0</double>
+     <double>227.0</double>
     </void>
    </object>
   </void>
@@ -422,17 +363,22 @@
   <void method="connect">
    <object class="com.horstmann.violet.UseCaseRelationshipEdge"/>
    <object idref="ActorNode2"/>
+   <object idref="UseCaseNode3"/>
+  </void>
+  <void method="connect">
+   <object class="com.horstmann.violet.UseCaseRelationshipEdge"/>
+   <object idref="ActorNode2"/>
+   <object idref="UseCaseNode0"/>
+  </void>
+  <void method="connect">
+   <object class="com.horstmann.violet.UseCaseRelationshipEdge"/>
+   <object idref="ActorNode0"/>
    <object idref="UseCaseNode7"/>
   </void>
   <void method="connect">
    <object class="com.horstmann.violet.UseCaseRelationshipEdge"/>
    <object idref="ActorNode2"/>
-   <object idref="UseCaseNode8"/>
-  </void>
-  <void method="connect">
-   <object class="com.horstmann.violet.UseCaseRelationshipEdge"/>
-   <object idref="ActorNode2"/>
-   <object idref="UseCaseNode9"/>
+   <object idref="UseCaseNode7"/>
   </void>
  </object>
 </java>
