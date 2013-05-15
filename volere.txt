@@ -102,7 +102,45 @@ które bêdzie zawiera³o nastêpuj¹ce punkty :
       - Zaœwiadczenie lekarskie ( pole edycji ju¿ w automatycznie wybranym tekstem )
       - Recepty ( wybór leków z bazy danych )
       - Nastêpna wizyta - przekierowanie do terminarza 
-      
+11. Funkcjonalnoœæ programu : 
+	- program powinien byæ intuicyjny, ³atwy w obs³udze
+	- sekcja dla rejestratorów - krokowa, pytania w formularzu rejestracyjnego powinny byæ zrozumia³e dla pacjenta 
+	- sekcja dla lekarza - specjalistyczna terminologia, z wyt³umaczeniem na wydruku dla pacjenta
+	- sekcja dla pielêgniarek - intuicyjna i zrozumia³a, pola wyboru (brak zbêdnego pisania)
+12.Program musi byæ dostosowany pod windows XP i wy¿sze, program musi dzia³aœ szybko, nie powinien siê zacinaæ, a je¿eli wyst¹pi b³¹d musi mieæ
+opcje zapamiêtywania (co 2 minuty) i przywracania. 
+
+13 / 14 / 15. Ka¿dy kto ma wgl¹d do programu ma swoje konto i has³o. Dzia³a wy³¹cznie na swoim koncie, tak ¿eby by³o wiadomo kto dokonywa³ wpisów. Nikt oprócz pracowników
+nie powinien mieæ wgl¹du do bazy danych.
+
+16. Dane ka¿dego pacjenta s¹ pod œcis³¹ ochron¹.
+
+17. Programy, które ju¿ istniej¹ na rynku o podobnej funkcjonalnoœci : mMedica , Astraia 
+
+18. W programie powinny byæ opcje eksportu danych : 
+- wys³anie wyników e-mailem (automatyczne przekierownie do skrzynki pocztowej)
+- mo¿liwoœæ zapisu wyników z ka¿dym wybranym rozszerzeniem (pdf, doc, docx, etc. )
+
+19. Czas realizacji : 
+- spotkania i szkolenia - do koñca maja
+- czêœæ rejestracji i umawiania na wizyty - do 15.06
+- czêœæ opisywania wyników - do 30.06
+- czêœæ wydawania zaœwiadczeñ lekarskich i recept - do 15.07
+- baza danych SQL - max do 15.07
+
+20. Obostrzenia : 
+- osoby zaanga¿owane w projekt musz¹ pracowaæ systematycznie
+- polecenia musz¹ byæ wykonywane zgodnie z tym co by³o powiedziane
+- ka¿dy problem musi zostaæ przedyskutowany
+- kreatywnoœæ jest mile widziana
+- nie uwzglêdniamy spóŸnieñ w realizacji
+- czas to pieni¹dz
+
+21. Up date to next version 
+- udoskonalenie bazy leków
+- poszerzenie bazy chorób i skrótów NFZ
+- podpisanie kontraktu z NFZ na wprowadzanie kuponów automatycznie przez program po odbyciu wizyty
+
 
    
 
